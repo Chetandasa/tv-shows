@@ -27,7 +27,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         },
         data: {
           favoriteIds: {
-            push: movieId
+            push: movieId,
           }
         }
       });
