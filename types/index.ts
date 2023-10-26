@@ -7,3 +7,4 @@ export interface MovieInterface {
     duration: string;
     genre: string;
   }
+  
